@@ -7,7 +7,8 @@ def sort_array_desc(array)
     left <=> right
 end
 
-def sort_array_chair_count(array)
+def sort_array_char_count(array)
+
 end
 
 def swap_elements(array)
