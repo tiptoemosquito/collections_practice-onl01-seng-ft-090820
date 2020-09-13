@@ -24,8 +24,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-array.each do |word|
-  word[2] = $
+array.each do |letter|
+  letter[2] = $
 end
 
 def find_a(array)
@@ -33,7 +33,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  [].sum (0.0)
+
 end
 
 def add_s(array)
