@@ -36,6 +36,8 @@ def find_a(array)
 end
 
 def sum_array(array)
+  [numbers].sum(0.0) {|n| n + n} do
+  end
 
 end
 
