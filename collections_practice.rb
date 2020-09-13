@@ -25,11 +25,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-[a].find{|a| a.starts_with[a]}
+  [a].find{|a| a.starts_with[a]}
 end
 
 def sum_array(array)
-  
+  [].sum (0.0)
 end
 
 def add_s(array)
