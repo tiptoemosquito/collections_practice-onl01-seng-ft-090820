@@ -1,4 +1,5 @@
 def sort_array_asc
+  array.sort
 end
 
 def sort_array_desc
@@ -16,7 +17,7 @@ end
 def kesha_maker
 end
 
-def find_a 
+def find_a
 end
 
 def sum_array
