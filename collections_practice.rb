@@ -41,6 +41,6 @@ end
 
 def add_s(array)
   array.each do |ending|
-    ending[0, 2, 3] = "s"
+    ending[(0, 2, 3)] = "s"
   end
 end
