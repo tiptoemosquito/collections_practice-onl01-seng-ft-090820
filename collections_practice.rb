@@ -36,9 +36,11 @@ def find_a(array)
 end
 
 def sum_array(array)
-  [numbers].sum(0.0) {|n| n + n}
+
 end
 
 def add_s(array)
-
+  array.each do |ending|
+    ending[0, 2, 3] = "s"
+  end
 end
