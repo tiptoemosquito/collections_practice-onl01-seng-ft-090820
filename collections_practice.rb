@@ -1,27 +1,29 @@
-def sort_array_asc
-  sort_by(&.length)
+def sort_array_asc(array)
+ array.sort
 end
 
-def sort_array_desc
+def sort_array_desc(array)
+  array.sort do |left, right|
+    left <=> right
 end
 
-def sort_array_chair_count
+def sort_array_chair_count(array)
 end
 
-def swap_elements
+def swap_elements(array)
 end
 
-def reverse_array
+def reverse_array(array)
 end
 
-def kesha_maker
+def kesha_maker(array)
 end
 
-def find_a
+def find_a(array)
 end
 
-def sum_array
+def sum_array(array)
 end
 
-def add_s
+def add_s(array)
 end
