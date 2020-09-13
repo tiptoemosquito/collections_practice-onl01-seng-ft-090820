@@ -40,8 +40,8 @@ def sum_array(array)
   array.each do |num|
     sum+=num
   end
-end
-sum
+  sum
+end 
 
 def add_s(array)
   array.collect do |word|
