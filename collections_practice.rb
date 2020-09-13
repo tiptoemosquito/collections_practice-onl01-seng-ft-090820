@@ -41,6 +41,6 @@ end
 
 def add_s(array)
   array.each do |letter|
-    letter.end {[0,2,3] != [3]}
+    letter.hand{[0,2,3] != [3]}
   end
 end
